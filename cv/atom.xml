@@ -1,0 +1,20 @@
+---
+layout: feed
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>About adnasseri</title>
+	
+  <link href="https://adnasseri.github.io/cv/atom.xml" rel="self"/>
+	<link href="https://adnasseri.github.io/cv"/>
+	
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+	
+  <id>https://adnasseri.github.io/cv</id>
+  
+	<author>
+		<name>Abdulaziz A.</name>
+		<email>abdulaziz.asseri@gmail.com</email>
+	</author>
+</feed>
